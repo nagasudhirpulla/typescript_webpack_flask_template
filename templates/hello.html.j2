@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack Demo Page</title>
+</head>
+
+<body>
+    <h1>Hello World!!!</h1>
+    <label for="nameInp">Enter name</label>
+    <input type="text" name="nameInp" id="nameInp">
+    <button id="greetBtn">Greet</button>
+    <br/>
+    <div id="outDiv"></div>
+    <script src="{{ url_for('static', filename='home.dist.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='home.js') }}"></script> -->
+</body>
+
+</html>
